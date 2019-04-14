@@ -11,19 +11,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <style>
+        body{
+            background-color: rgb(248, 252, 18);
+            color: rgb(11, 71, 201);
+        }
+        .logo{
+            margin-top: 80px;
+            text-align: center;
+        }
         img {
-            width: 100%;
-
+            max-width: 400px;
         }
 
         .text {
             text-align: center;
-            color: rgb(13, 106, 228);
+            margin-top: 40px;
         }
 
-        .prazan {
-            height: 100px;
-        }
 
         nav {
             text-align: center;
@@ -34,10 +38,14 @@
             margin: 0 auto;
         }
 
+        h1, h3{
+            font-size: 45px;
+        }
         footer {
             position: fixed;
             bottom: 15px;
             width: 100%;
+            text-align: center;
         }
     </style>
 </head>
@@ -68,25 +76,23 @@
     </nav>
     <!-- Navbar end-->
     <!-- Body start-->
-    <div class="prazan"></div>
-    <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="logo col-md-6">
+
+            <div class="logo">
                 <img src="./images/devillogo.png">
             </div>
-            <div class="text col-md-6">
+            <div class="text display-4">
                 <h1>Hello</h1>
                 <h3>I'm Dragica, graphic designer, </h3>
                 <h3> how can I help you? </h3>
             </div>
-        </div>
-    </div>
+        
+   
     <!-- Body end-->
     <!-- Footer Start-->
 
-    <footer class="container-fluid mb-1 row position-fixed">
-        <div class="col-md-6 text-center ">DR &copy; Copyright 2019</div>
-        <div class="col-md-6 text-center">Design by DR</div>
+    <footer>
+            <p>DR &copy; Copyright 2019</p>       
+            <p>Design by DR</p>
     </footer>
     <!-- Footer End-->
 </body>

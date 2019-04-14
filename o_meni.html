@@ -9,7 +9,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <style>
+        body{
+            color: rgb(11, 71, 201);
+            background-color: rgb(248, 252, 18);
+        }
+        img {
+            max-width: 400px;
+            margin-top: 80px;
+        }
+        .header {
+            text-align: center;
+            
+        }
+
+
         nav {
             text-align: center;
             font: 12px 'opensans-bold', sans-serif;
@@ -17,14 +32,19 @@
             text-transform: uppercase;
             letter-spacing: 2.5px;
             margin: 0 auto;
-            z-index: 100;
-            left: 0;
-            top: 0;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 15px;
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
+    <!-- Navbar Start-->
     <nav class="navbar bg-primary navbar-dark navbar-expand-sm justify-content-center fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
             <span class="navbar-toggler-icon"></span>
@@ -47,6 +67,30 @@
             </ul>
         </div>
     </nav>
-</body>
+    <!-- Navbar end-->
+    <!-- Body start -->
+    <div class="container text-justify">
+    <div class="header">
+        <img id="portf" src="./images/devillogo.png">
+        <h1>ABOUT ME</h1>
+    </div>
+    <p>
+            Graphic designer based in Belgrade.
+ 
+            I’m a creative, motivated graphic designer and I love what I do.
+             
+            Graphics is a huge passion of mine. It enables me to stay spontaneous and gives me an opportunity for be creative. I put a lot of commitment into my work, and take by the handful all the benefits offered by the Internet and contemporary advertising in order to satisfy my clients.The ability of creating new interesting solutions makes sense only when we are cooperating with other people. Together it is much easier to achieve goals and set high standards of our service. So everyone interested in my offer is cordially invited to cooperation.
+    </p>
+</div>
+    <!-- Body end-->
 
+    <!-- Footer Start-->
+
+    
+    <!-- Footer End-->
+</body>
+<footer>
+    <p>DR &copy; Copyright 2019</p>       
+    <p>Design by DR</p>
+</footer>
 </html>

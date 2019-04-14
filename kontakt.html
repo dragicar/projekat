@@ -9,22 +9,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <style>
+        body {
+            color: rgb(11, 71, 201);
+            background-color: rgb(248, 252, 18);
+        }
+
+        img {
+            max-width: 400px;
+            margin-top: 80px;
+        }
+
+        .header {
+            text-align: center;
+
+        }
+
+
         nav {
+            text-align: center;
             font: 12px 'opensans-bold', sans-serif;
             width: 100%;
             text-transform: uppercase;
             letter-spacing: 2.5px;
-
+            margin: 0 auto;
         }
 
-   
-
- 
+        footer {
+            margin-bottom: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
+    <!-- Navbar Start-->
     <nav class="navbar bg-primary navbar-dark navbar-expand-sm justify-content-center fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseid">
             <span class="navbar-toggler-icon"></span>
@@ -47,8 +67,62 @@
             </ul>
         </div>
     </nav>
+    <!-- Navbar end-->
+    <!-- Form start -->
+    <div class="header">
+        <img src="./images/devillogo.png">
+        <h1>CONTACT FORM</h1>
 
-    
+    </div>
+
+
+    <div class="container p-5" style="margin-top:75px">
+        <div class="font-weight-bolder">
+            <p>
+                If you are interested in working with me, please get in touch.
+                I’d love to learn more about your project.
+            </p>
+            <p>
+                Please feel free to get in touch anytime, whether for work inquiries or to just say hello.
+                I am currently accepting new freelance design projects, and always excited to hear interesting
+                proposals.
+            </p>
+        </div>
+        <br>
+        <form>
+
+            <div class="form-group">
+                <label for="ime">Name</label>
+                <input type="text" class="form-control" id="ime" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" class="form-control" id="subject">
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control" name="msg" id="msg" rows="4"
+                    placeholder="Your massage here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+    </div>
+
+    <!-- Form end-->
+
+    <!-- Footer Start-->
+
+    <footer>
+        <p>DR &copy; Copyright 2019</p>
+
+        <p>Design by DR</p>
+    </footer>
+    <!-- Footer End-->
 </body>
 
 </html>
