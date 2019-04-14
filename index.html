@@ -15,12 +15,13 @@
             background-color: rgb(248, 252, 18);
             color: rgb(11, 71, 201);
         }
-        .logo{
+        .header{
             margin-top: 80px;
             text-align: center;
         }
         img {
             max-width: 400px;
+            min-width: 100px;
         }
 
         .text {
@@ -28,7 +29,9 @@
             margin-top: 40px;
         }
 
-
+        .prazan{
+            height: 100px;
+        }
         nav {
             text-align: center;
             font: 12px 'opensans-bold', sans-serif;
@@ -39,14 +42,15 @@
         }
 
         h1, h3{
-            font-size: 45px;
+            font-size: 30px;
         }
         footer {
-            position: fixed;
-            bottom: 15px;
-            width: 100%;
+            margin-top: 40px;
+            
             text-align: center;
+            line-height: 10px;
         }
+        
     </style>
 </head>
 
@@ -75,24 +79,25 @@
         </div>
     </nav>
     <!-- Navbar end-->
-    <!-- Body start-->
+    <!-- Header start-->
+    <div class="header">
+        <img src="./images/devillogo.png">
+    </div>
+    <!-- Header end-->
 
-            <div class="logo">
-                <img src="./images/devillogo.png">
-            </div>
+    <!-- Body start-->
             <div class="text display-4">
                 <h1>Hello</h1>
                 <h3>I'm Dragica, graphic designer, </h3>
                 <h3> how can I help you? </h3>
             </div>
-        
-   
+            <div class="prazan"></div>
     <!-- Body end-->
     <!-- Footer Start-->
 
     <footer>
-            <p>DR &copy; Copyright 2019</p>       
-            <p>Design by DR</p>
+        <p>DR &copy; Copyright 2019</p>       
+        <p>Design by DR</p>
     </footer>
     <!-- Footer End-->
 </body>

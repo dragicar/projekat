@@ -11,17 +11,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <style>
-        body{
+        body {
             color: rgb(11, 71, 201);
             background-color: rgb(248, 252, 18);
         }
+
+        .header {
+            margin-top: 80px;
+            text-align: center;
+        }
+
         img {
             max-width: 400px;
-            margin-top: 80px;
-        }
-        .header {
-            text-align: center;
-            
+            min-width: 100px;
         }
 
 
@@ -34,11 +36,18 @@
             margin: 0 auto;
         }
 
+        .container{
+            margin-bottom: 20px;
+        }
+
+        .prazan{
+            height: 100px;
+        }
         footer {
-            position: fixed;
-            bottom: 15px;
-            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
             text-align: center;
+            line-height: 10px;
         }
     </style>
 </head>
@@ -68,29 +77,38 @@
         </div>
     </nav>
     <!-- Navbar end-->
-    <!-- Body start -->
-    <div class="container text-justify">
+    <!-- Header start -->
+
     <div class="header">
-        <img id="portf" src="./images/devillogo.png">
+        <img src="./images/devillogo.png">
         <h1>ABOUT ME</h1>
     </div>
+    <!-- Header end-->
+    <!-- Body start -->
+    <div class="container text-justify ">
     <p>
-            Graphic designer based in Belgrade.
- 
-            I’m a creative, motivated graphic designer and I love what I do.
-             
-            Graphics is a huge passion of mine. It enables me to stay spontaneous and gives me an opportunity for be creative. I put a lot of commitment into my work, and take by the handful all the benefits offered by the Internet and contemporary advertising in order to satisfy my clients.The ability of creating new interesting solutions makes sense only when we are cooperating with other people. Together it is much easier to achieve goals and set high standards of our service. So everyone interested in my offer is cordially invited to cooperation.
+        Graphic designer based in Belgrade.
+        <br>
+        I’m a creative, motivated graphic designer and I love what I do.
+        <br>
+        Graphics is a huge passion of mine. It enables me to stay spontaneous and gives me an opportunity for be
+        creative. I put a lot of commitment into my work, and take by the handful all the benefits offered by the
+        Internet and contemporary advertising in order to satisfy my clients.The ability of creating new interesting
+        solutions makes sense only when we are cooperating with other people. Together it is much easier to achieve
+        goals and set high standards of our service. So everyone interested in my offer is cordially invited to
+        cooperation.
     </p>
-</div>
+    </div>
+    <div class="prazan"></div>
     <!-- Body end-->
 
     <!-- Footer Start-->
+    <footer>
+        <p>DR &copy; Copyright 2019</p>
+        <p>Design by DR</p>
+    </footer>
 
-    
     <!-- Footer End-->
 </body>
-<footer>
-    <p>DR &copy; Copyright 2019</p>       
-    <p>Design by DR</p>
-</footer>
+
 </html>
